@@ -8,10 +8,57 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- google font ink-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@800&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+    .font-lato{
+        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+</style>
+
 </head>
 
-<body>
-    
+<body >
+    <!-- navbar section -->
+    <nav class="max-w-screen-xl mx-auto md:px-12 lg: px-24 my-10" >
+        <div class="navbar sm:bg-base-100 lg: bg-[#F85559] rounded-full ">
+            <div class="navbar-start">
+                <ul class="menu menu-horizontal px-1 text-[#FFF]" >
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="navbar-center">
+              <div class=" flex items-center text-[#FFF] font-medium text-5xl gap-1">
+                <img src="./images/logo.png" alt="">
+                <P>Fruit Burst</P>
+              </div>
+            </div>
+            <div class="navbar-end">
+              <button>
+                <div class="relative ">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-full" />
+                </div>
+                <div class="absolute top-14 right-14">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                </div>
+    </button>
+              </button>
+              
+            </div>
+          </div>
+    </nav>
+   
+
     
 </body>
 </html>
